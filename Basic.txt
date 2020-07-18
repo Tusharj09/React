@@ -1,0 +1,79 @@
+ React Js -
+
+View library from facebook.
+It renders the view from the stae of your application
+
+
+Compenents type;
+
+stateless functional components - javascript function
+
+state class components - regualr es6 clases extend the components class in react library 
+must include render(); 
+
+
+functional Components - Simple function recieving props and decakring variables
+Use as much 
+Absence of this keyword
+Solution without using state
+Stateless/Dumb/presentational Components
+
+shortform -rfce
+
+
+ Class components- More rich features
+Maintain thier own private data- state 
+provide lifecycle hooks
+stateFul components Smart/container
+
+props - props are paased to the compononents
+Function parameters
+prosp are immutable
+props - functional components
+this.props - class components
+
+
+State -
+state is managed withing the components
+variables declared int the functioon body
+state can be changed
+useState Hook- functionsl Components 
+this.state - class COmponents
+
+
+Conditional rendering-
+
+1.If else
+2. Element variable 
+3, Ternary operator
+4. Short ciruit operator
+
+Keys -
+
+its a special string attribute you need to inclde when creating lists of elements.
+Keys give the elements a stable identity.
+keys help React identify whcihh items have changed , are added , or are removed 
+Help in efficient update of the user.
+
+Index as Keys-
+when to use- 
+The items in your list do not have a unique id.
+List is static and will not change,
+eg- never adding item to the list and removing from the list.
+3. The list wiill never be reordred or filterred.
+
+
+
+Components LifeCycle Method-
+1.Mounting- When an instance of a component is being created and inserted into the DOM.
+  Constructor, static getDerivedStateFromProps, render and componentDidMount
+
+2. Updating- When a component is being re-rendered as a result of changes to either its props or state 
+static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate and ComponentDidUpdate
+
+3.Unmounting- When a component is being removed from the DOM 
+  componentWillUnmount
+
+4.Error Handling-when there is an error during rendering, in a lifecycle method or in the constructor of any child component
+static getDerivedstateFromError and componentDidCatch
+
